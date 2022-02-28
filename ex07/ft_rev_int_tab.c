@@ -6,7 +6,7 @@
 /*   By: dluna-lo <marvin@42quebec.com>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/28 09:58:05 by dluna-lo          #+#    #+#             */
-/*   Updated: 2022/02/28 13:10:57 by dluna-lo         ###   ########.fr       */
+/*   Updated: 2022/02/28 13:12:05 by dluna-lo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ void	ft_rev_int_tab(int *tab, int size)
 	int	i;
 
 	i = -1;
-	while (++i < (size / 2 ))
+	while (++i < (size / 2))
 	{
 		temporary = tab[i];
 		tab[i] = tab[(size - 1) - i];
